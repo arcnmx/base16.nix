@@ -1,7 +1,7 @@
 { pkgs, lib, ... }: with pkgs; with lib; let
-  inherit (import ../shell.nix {
+  inherit (import ../default.nix {
     inherit pkgs;
-  }) update;
+  }) legacyPackages;
   branches = [ "generate" ];
 in {
   name = "base16-schemes-json-generate";
@@ -27,7 +27,7 @@ in {
   tasks.generate.inputs = singleton (ci.command {
     name = "generate";
     command = ''
-      ${update}/bin/update
+      ${legacyPackages.base16-generate-update}/bin/update
     '';
     impure = true;
     environment = [ "CI_PLATFORM" "GITHUB_REF" "GITHUB_EVENT_NAME" ];

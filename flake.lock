@@ -1,18 +1,74 @@
 {
   "nodes": {
-    "base16-schemes": {
-      "flake": false,
+    "base16": {
+      "inputs": {
+        "flakelib": [
+          "flakelib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
       "locked": {
-        "lastModified": 1657650255,
-        "narHash": "sha256-xmBDrZXWeQNHRodVBwW9eUNQc6pwm0PGDFT66R3QWyE=",
-        "owner": "base16-project",
-        "repo": "base16-schemes",
-        "rev": "99529527e7cb3d777fb6e041c2aabbe6cdec4c4c",
+        "lastModified": 1700702020,
+        "narHash": "sha256-bpw4HTJEBfBCx3OhLVpPElkyG213Xrr9344730fKOnE=",
+        "owner": "arcnmx",
+        "repo": "base16.nix",
+        "rev": "551958dc0352625fe8a6d16205e7a3e748326d24",
         "type": "github"
       },
       "original": {
-        "owner": "base16-project",
+        "owner": "arcnmx",
+        "ref": "flake",
+        "repo": "base16.nix",
+        "type": "github"
+      }
+    },
+    "base16-schemes-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1657092754,
+        "narHash": "sha256-ptSYeEvaHJKCJyzIt15ITdtr5x84p01LVAAsL+WH+qo=",
+        "owner": "chriskempson",
+        "repo": "base16-schemes-source",
+        "rev": "944dbc76180ddf3301289c59f143b8d6d37c1a9e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chriskempson",
+        "repo": "base16-schemes-source",
+        "type": "github"
+      }
+    },
+    "base16-schemes-tinted": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696158499,
+        "narHash": "sha256-5yIHgDTPjoX/3oDEfLSQ0eJZdFL1SaCfb9d6M0RmOTM=",
+        "owner": "tinted-theming",
         "repo": "base16-schemes",
+        "rev": "a9112eaae86d9dd8ee6bb9445b664fba2f94037a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tinted-theming",
+        "repo": "base16-schemes",
+        "type": "github"
+      }
+    },
+    "base16-templates-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660753358,
+        "narHash": "sha256-5RN3l74+DBY/3f0OUoAPuxfIT7vmkqNRdogUAkmLeWQ=",
+        "owner": "chriskempson",
+        "repo": "base16-templates-source",
+        "rev": "394b12c904fa5d0b8cf458639877dcc484520194",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chriskempson",
+        "repo": "base16-templates-source",
         "type": "github"
       }
     },
@@ -32,19 +88,44 @@
         "type": "github"
       }
     },
-    "flakelib": {
+    "flakegen": {
       "inputs": {
-        "fl-config": "fl-config",
+        "flakelib": [
+          "flakelib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "std": [
+          "flakelib",
           "std"
         ]
       },
       "locked": {
-        "lastModified": 1653703940,
-        "narHash": "sha256-5YmQ/uV/LvCutffKgJDICTToL4FJFSGUJC3mtDfDOpE=",
+        "lastModified": 1700697206,
+        "narHash": "sha256-0UhAK/b0CalrEG86Tg67evzVQstwkRwqlCsWcyZ0Ux0=",
+        "owner": "flakelib",
+        "repo": "flakegen",
+        "rev": "0dcf4fa635143834750a70a642b6bc0351d47aa0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "flakelib",
+        "repo": "flakegen",
+        "type": "github"
+      }
+    },
+    "flakelib": {
+      "inputs": {
+        "fl-config": "fl-config",
+        "std": "std"
+      },
+      "locked": {
+        "lastModified": 1683326042,
+        "narHash": "sha256-PRjFKmEzzoE0BeDM8zRdwMcUkMq4Ue340O4jv71PzBw=",
         "owner": "flakelib",
         "repo": "fl",
-        "rev": "734cd53f181545ae495e24fe92c43430d8f91e3f",
+        "rev": "d4be0a0007aeae09b8faced2e297b1062dc05b1e",
         "type": "github"
       },
       "original": {
@@ -55,27 +136,26 @@
     },
     "nix-std": {
       "locked": {
-        "lastModified": 1652644856,
-        "narHash": "sha256-tRRx4bBFwctWrUhnCNrcRee8Wiol1M7ypQTOPrLLtkc=",
-        "owner": "flakelib",
-        "repo": "std",
-        "rev": "194230d45e99ce84cf25ea8b3ae4774601fc097c",
+        "lastModified": 1671170529,
+        "narHash": "sha256-015C6x3tZMEd83Vd2rpfLC86PSRJrbUca1U3Rysranw=",
+        "owner": "chessai",
+        "repo": "nix-std",
+        "rev": "3b307d64ef7d7e8769d36b8c8bf33983efd1415a",
         "type": "github"
       },
       "original": {
-        "owner": "flakelib",
-        "ref": "master",
-        "repo": "std",
+        "owner": "chessai",
+        "repo": "nix-std",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1654641387,
-        "narHash": "sha256-x2HnWQYpHCuW86nTSTSV/N2+DTeqmoXr0fBvP0jIDH0=",
+        "lastModified": 1700083842,
+        "narHash": "sha256-uC5v4VyUPgC5L3zv7e9q6+TRCm+eiA+Ow5vcH67ef/I=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b83c88740dbf88ce9ee9b18bf0b5947786e069ad",
+        "rev": "9008bc4eb62c878d0812105ea1b34255d651df88",
         "type": "github"
       },
       "original": {
@@ -85,10 +165,13 @@
     },
     "root": {
       "inputs": {
-        "base16-schemes": "base16-schemes",
+        "base16": "base16",
+        "base16-schemes-source": "base16-schemes-source",
+        "base16-schemes-tinted": "base16-schemes-tinted",
+        "base16-templates-source": "base16-templates-source",
+        "flakegen": "flakegen",
         "flakelib": "flakelib",
-        "nixpkgs": "nixpkgs",
-        "std": "std"
+        "nixpkgs": "nixpkgs"
       }
     },
     "std": {
@@ -96,11 +179,11 @@
         "nix-std": "nix-std"
       },
       "locked": {
-        "lastModified": 1653687056,
-        "narHash": "sha256-juSgVqE/jK1/KHJ5bLn3HmAu4ByG1cq5v3CfUIS47cE=",
+        "lastModified": 1671225084,
+        "narHash": "sha256-EzqxFHRifPyjUXQY4B8GJH75fTmWqFnQdj10Q984bR8=",
         "owner": "flakelib",
         "repo": "std",
-        "rev": "06ce1ab9259a691611a0cc93a72a9f443fdd3aff",
+        "rev": "8546115941a5498ddb03a239aacdba151d433f09",
         "type": "github"
       },
       "original": {
