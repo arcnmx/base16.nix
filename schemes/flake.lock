@@ -1,0 +1,1411 @@
+{
+  "nodes": {
+    "apprentice": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678412698,
+        "narHash": "sha256-qDDqmtJMFzKqVJKHMrWbOnNTF3quqrcXTvbx/iwEDnk=",
+        "owner": "casonadams",
+        "repo": "base16-apprentice-scheme",
+        "rev": "1ee4483372c7372599d0074eb93cde449e8bbf31",
+        "type": "github"
+      },
+      "original": {
+        "owner": "casonadams",
+        "repo": "base16-apprentice-scheme",
+        "type": "github"
+      }
+    },
+    "atelier": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1495956440,
+        "narHash": "sha256-tKOPV4uStfEM6xBa+3sOLtpkpi/ykEiLlybt+3g09WQ=",
+        "owner": "atelierbram",
+        "repo": "base16-atelier-schemes",
+        "rev": "212179fded98ecfa7d88ad7a756d81297a3371c2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "atelierbram",
+        "repo": "base16-atelier-schemes",
+        "type": "github"
+      }
+    },
+    "atlas": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1538613261,
+        "narHash": "sha256-l0WzTUSvLgsL+ExcgdMzXoJnfVQvKr8Jk5uKI6Li8CU=",
+        "owner": "ajlende",
+        "repo": "base16-atlas-scheme",
+        "rev": "55fe308a8d93a31c1bd55e80ff573b11511b6cf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ajlende",
+        "repo": "base16-atlas-scheme",
+        "type": "github"
+      }
+    },
+    "base16": {
+      "inputs": {
+        "flakelib": [
+          "flakelib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1700702020,
+        "narHash": "sha256-bpw4HTJEBfBCx3OhLVpPElkyG213Xrr9344730fKOnE=",
+        "owner": "arcnmx",
+        "repo": "base16.nix",
+        "rev": "551958dc0352625fe8a6d16205e7a3e748326d24",
+        "type": "github"
+      },
+      "original": {
+        "owner": "arcnmx",
+        "ref": "flake",
+        "repo": "base16.nix",
+        "type": "github"
+      }
+    },
+    "black-metal": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1585330710,
+        "narHash": "sha256-ctsMdfUpqVZfqtg4paYg4oCataRHoapxSiYRsi0lwhI=",
+        "owner": "metalelf0",
+        "repo": "base16-black-metal-scheme",
+        "rev": "c7a32bec8105a1ceddb9fcc90b713dabde5e7e5e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "metalelf0",
+        "repo": "base16-black-metal-scheme",
+        "type": "github"
+      }
+    },
+    "brogrammer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1523072634,
+        "narHash": "sha256-XcwcsnEzFTfkDeNOeT+tPUFotvD5m2249+mnVv0dDUY=",
+        "owner": "piggyslasher",
+        "repo": "base16-brogrammer-scheme",
+        "rev": "e2f190582e8bb70e507ae710ac1d74a0776643f8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "piggyslasher",
+        "repo": "base16-brogrammer-scheme",
+        "type": "github"
+      }
+    },
+    "brushtrees": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1502170892,
+        "narHash": "sha256-pqIBJ2HkaCDoqvfETKZ4pxloJARVv59lc1TZW6RyyXY=",
+        "owner": "WhiteAbeLincoln",
+        "repo": "base16-brushtrees-scheme",
+        "rev": "0b8ae8c74aaffb2f521e494f4d72dd461c1aa836",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WhiteAbeLincoln",
+        "repo": "base16-brushtrees-scheme",
+        "type": "github"
+      }
+    },
+    "circus": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696638051,
+        "narHash": "sha256-lmqrBg1W5WeNVQWppMJgMLxZJoRp9ZEhi4bprWVlPrU=",
+        "owner": "stepchowfun",
+        "repo": "base16-circus-scheme",
+        "rev": "951066766f2af1d3dd2cf8fe038d15633fcff150",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stepchowfun",
+        "repo": "base16-circus-scheme",
+        "type": "github"
+      }
+    },
+    "classic": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1492569695,
+        "narHash": "sha256-UYN25b3VGxH4gfkMQiSNLmmIEE46rufMbKH6bW5a9sw=",
+        "owner": "detly",
+        "repo": "base16-classic-scheme",
+        "rev": "532c8b4eb1e9507c51ed467a158f91f11c6b52cb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "detly",
+        "repo": "base16-classic-scheme",
+        "type": "github"
+      }
+    },
+    "codeschool": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1515079829,
+        "narHash": "sha256-OWpvUMu0URj0orvVYx0zDRJdeA9cUecCsaB3ZLtOmW4=",
+        "owner": "blockloop",
+        "repo": "base16-codeschool-scheme",
+        "rev": "766cd0fdb564191152c90872b143a14e8a43b78c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "blockloop",
+        "repo": "base16-codeschool-scheme",
+        "type": "github"
+      }
+    },
+    "colors": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620692227,
+        "narHash": "sha256-KRnLWJnzl5+WVgmsnkTXP1rRm0AABiQ6tyMnhlYWngE=",
+        "owner": "hakatashi",
+        "repo": "base16-colors-scheme",
+        "rev": "79ae645d3d4b0bbf6524ebafcd6dd066d8ab7505",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hakatashi",
+        "repo": "base16-colors-scheme",
+        "type": "github"
+      }
+    },
+    "cupertino": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1606115970,
+        "narHash": "sha256-cmK7SXjsEWXgcSawAvRYQz0JnrF6QxBOGqml28gVyIo=",
+        "owner": "Defman21",
+        "repo": "base16-cupertino",
+        "rev": "16d202574c695c8c7b5bcb37277e7d8bda465604",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Defman21",
+        "repo": "base16-cupertino",
+        "type": "github"
+      }
+    },
+    "danqing": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659989163,
+        "narHash": "sha256-q4OYXpV4YgU39Cdt0e15SoSs20B//cfRNO0N42wI+jk=",
+        "owner": "CosmosAtlas",
+        "repo": "base16-danqing-scheme",
+        "rev": "cab0e350237b2c11dba15fed3fb212a6ab43ab63",
+        "type": "github"
+      },
+      "original": {
+        "owner": "CosmosAtlas",
+        "repo": "base16-danqing-scheme",
+        "type": "github"
+      }
+    },
+    "darcula": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613633970,
+        "narHash": "sha256-IQqyWPJtr4GYPZv0VDfqqZaKLmndjS4OIHVEAOLl1hs=",
+        "owner": "casonadams",
+        "repo": "base16-darcula-scheme",
+        "rev": "55f0dca58266c8fdc5a014fad14f07e35e3a500a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "casonadams",
+        "repo": "base16-darcula-scheme",
+        "type": "github"
+      }
+    },
+    "darkmoss": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1538591066,
+        "narHash": "sha256-S5u4yAuMSHKuy/Mf0nEMOt2NJijNZHNcWIf5Ny1f/w0=",
+        "owner": "avanzzzi",
+        "repo": "base16-darkmoss-scheme",
+        "rev": "1412e87370d9c835df4cf7eeba2b92a7761c33f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "avanzzzi",
+        "repo": "base16-darkmoss-scheme",
+        "type": "github"
+      }
+    },
+    "darkviolet": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1581723431,
+        "narHash": "sha256-J+SRycuSHzg+iNmc0697Ql2Qmo9/MvOdh692R+DKlOc=",
+        "owner": "ruler501",
+        "repo": "base16-darkviolet-scheme",
+        "rev": "2e852c8c21b991c0360d788e7561e465cbb594cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ruler501",
+        "repo": "base16-darkviolet-scheme",
+        "type": "github"
+      }
+    },
+    "default": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1559992488,
+        "narHash": "sha256-pwJCHPaHhvkkjIxQhMUm9FA5jZJSrMhu+ciA3A/dsME=",
+        "owner": "chriskempson",
+        "repo": "base16-default-schemes",
+        "rev": "daf674291964321cd8c92644f9bbdbf3e7c0e8b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chriskempson",
+        "repo": "base16-default-schemes",
+        "type": "github"
+      }
+    },
+    "dirtysea": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1609984421,
+        "narHash": "sha256-U0bzWzndGM90z+GNu5t69yO4d8SeFpEYMNzeM6uuBrY=",
+        "owner": "tartansandal",
+        "repo": "base16-dirtysea-scheme",
+        "rev": "6785ce5ec20f89cf2d305bd974320519895915ef",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tartansandal",
+        "repo": "base16-dirtysea-scheme",
+        "type": "github"
+      }
+    },
+    "dracula": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1646106479,
+        "narHash": "sha256-iHe/Y0+yubXseh3gMWb6wZ4rIb1GAlb6iQNVgiEncfI=",
+        "owner": "dracula",
+        "repo": "base16-dracula-scheme",
+        "rev": "9494b73c343dde092edb05db51f1fd238395f10a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dracula",
+        "repo": "base16-dracula-scheme",
+        "type": "github"
+      }
+    },
+    "edge": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1575874489,
+        "narHash": "sha256-/RWbeNgJYbO0g0ydUaYSI1AWUXJX1sK0apufdzaBUiw=",
+        "owner": "cjayross",
+        "repo": "base16-edge-schemes",
+        "rev": "d2c54a43623f0b1b8441130e6cecb2cd12521711",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cjayross",
+        "repo": "base16-edge-schemes",
+        "type": "github"
+      }
+    },
+    "equilibrium": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594062783,
+        "narHash": "sha256-fkyV03fHIQfEbWzM3S7AhbL+4fCGNmoLJTa0ScaPU10=",
+        "owner": "carloabelli",
+        "repo": "base16-equilibrium-scheme",
+        "rev": "87d0bd37e7eb682a33b1c5170e9a44e2af2301bd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "carloabelli",
+        "repo": "base16-equilibrium-scheme",
+        "type": "github"
+      }
+    },
+    "espresso": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613109805,
+        "narHash": "sha256-oLgAXqRvEC662t0j5CbKqtRsLBTP26yUJclaehUl1Cs=",
+        "owner": "alexmirrington",
+        "repo": "base16-espresso-scheme",
+        "rev": "fbb61a845ca799986e6ac0c45f06050b8544e935",
+        "type": "github"
+      },
+      "original": {
+        "owner": "alexmirrington",
+        "repo": "base16-espresso-scheme",
+        "type": "github"
+      }
+    },
+    "eva": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589840056,
+        "narHash": "sha256-+52BPv/3f4vqG+p37XSxyf9w0CPkBSvCo6x1O/JE6Lg=",
+        "owner": "kjakapat",
+        "repo": "base16-eva-scheme",
+        "rev": "595ea6eff814ae462709f222e7af3492ee804e88",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kjakapat",
+        "repo": "base16-eva-scheme",
+        "type": "github"
+      }
+    },
+    "fl-config": {
+      "locked": {
+        "lastModified": 1653159448,
+        "narHash": "sha256-PvB9ha0r4w6p412MBPP71kS/ZTBnOjxL0brlmyucPBA=",
+        "owner": "flakelib",
+        "repo": "fl",
+        "rev": "fcefb9738d5995308a24cda018a083ccb6b0f460",
+        "type": "github"
+      },
+      "original": {
+        "owner": "flakelib",
+        "ref": "config",
+        "repo": "fl",
+        "type": "github"
+      }
+    },
+    "flakelib": {
+      "inputs": {
+        "fl-config": "fl-config",
+        "std": "std"
+      },
+      "locked": {
+        "lastModified": 1683326042,
+        "narHash": "sha256-PRjFKmEzzoE0BeDM8zRdwMcUkMq4Ue340O4jv71PzBw=",
+        "owner": "flakelib",
+        "repo": "fl",
+        "rev": "d4be0a0007aeae09b8faced2e297b1062dc05b1e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "flakelib",
+        "repo": "fl",
+        "type": "github"
+      }
+    },
+    "framer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1559421758,
+        "narHash": "sha256-GMwDHLMWTtSUA9+ivfe1Ir5pjyPWLZY35oLydCYhnkU=",
+        "owner": "jssee",
+        "repo": "base16-framer-scheme",
+        "rev": "f4e15f3182132c57e8294ba235862404e419256f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jssee",
+        "repo": "base16-framer-scheme",
+        "type": "github"
+      }
+    },
+    "fruit-soda": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1530650314,
+        "narHash": "sha256-kQMl0yp6Khv9h4JZ8lfUSEgCz1eO1smBktIJ9LxXeSc=",
+        "owner": "jozip",
+        "repo": "base16-fruit-soda-scheme",
+        "rev": "38144b1a06466c341ddffc45f8b592f211fdcc06",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jozip",
+        "repo": "base16-fruit-soda-scheme",
+        "type": "github"
+      }
+    },
+    "gigavolt": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1571009635,
+        "narHash": "sha256-nuaFKWmVanp6rghtEeJIfGBu0MniQZOxp27K+BVBZqs=",
+        "owner": "Whillikers",
+        "repo": "base16-gigavolt-scheme",
+        "rev": "55c75e2c2b98ac142fda506d7d83203b4426df64",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Whillikers",
+        "repo": "base16-gigavolt-scheme",
+        "type": "github"
+      }
+    },
+    "github": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1469536500,
+        "narHash": "sha256-8KqKZjj6tu0oe59CO4k6yQt94x0udLdukxmWB7EXBC8=",
+        "owner": "Defman21",
+        "repo": "base16-github-scheme",
+        "rev": "2daf39a4a02185637fbcc0d2cb239517c2ac6800",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Defman21",
+        "repo": "base16-github-scheme",
+        "type": "github"
+      }
+    },
+    "gruber": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1661270669,
+        "narHash": "sha256-5/IXraRxt/t0g43QSsagOm9YAC+/fmWo2vP/jTWFL8M=",
+        "owner": "nimaipatel",
+        "repo": "base16-gruber",
+        "rev": "6042ad787717d59df856324c4250804db8fc69c8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nimaipatel",
+        "repo": "base16-gruber",
+        "type": "github"
+      }
+    },
+    "gruvbox": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1547401068,
+        "narHash": "sha256-txrHQzlwtx2GIaPum+Z+cncAyOI/5YdHB3OGUziI7wY=",
+        "owner": "dawikur",
+        "repo": "base16-gruvbox-scheme",
+        "rev": "2def6ef77c1f562ff298d61da6845289bfd9f569",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dawikur",
+        "repo": "base16-gruvbox-scheme",
+        "type": "github"
+      }
+    },
+    "hardcore": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1574260372,
+        "narHash": "sha256-x7vvLy7XPlkX6FZEoEdRgsjpTJxj0aRzge8o7pIx094=",
+        "owner": "callerc1",
+        "repo": "base16-hardcore-scheme",
+        "rev": "37dfee7c299332d4a2921827504340647dcb71d1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "callerc1",
+        "repo": "base16-hardcore-scheme",
+        "type": "github"
+      }
+    },
+    "heetch": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1537963034,
+        "narHash": "sha256-I3JFCyms+Cl0LuSeZbC5FZ1tMOtb4Sc+L/egasP0VL4=",
+        "owner": "tealeg",
+        "repo": "base16-heetch-scheme",
+        "rev": "b93f17adf1f35cfd17d730788311db5f84c0b3ce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tealeg",
+        "repo": "base16-heetch-scheme",
+        "type": "github"
+      }
+    },
+    "helios": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1559907786,
+        "narHash": "sha256-ahGQKFlDGWxRIPAn6h5t2zkl3tAE1EvNVmRBPjDceAs=",
+        "owner": "reyemxela",
+        "repo": "base16-helios-scheme",
+        "rev": "92a70341f710d7377327e792020a926e7822ec7a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "reyemxela",
+        "repo": "base16-helios-scheme",
+        "type": "github"
+      }
+    },
+    "horizon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633810732,
+        "narHash": "sha256-zbywfVQ7fn+AlUZjqHxunTqbls6dj1td88/gV11cfMI=",
+        "owner": "michael-ball",
+        "repo": "base16-horizon-scheme",
+        "rev": "4eabc3a5f7fc823cf3ceecda99dbef4e54c52574",
+        "type": "github"
+      },
+      "original": {
+        "owner": "michael-ball",
+        "repo": "base16-horizon-scheme",
+        "type": "github"
+      }
+    },
+    "humanoid": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1582041182,
+        "narHash": "sha256-rS1csEA8ubK4G7TBUEhTt+O9fo/e3HP67yews7B+Yx8=",
+        "owner": "humanoid-colors",
+        "repo": "base16-humanoid-schemes",
+        "rev": "2b20767c78694885b347eff6cabccd8c080803e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "humanoid-colors",
+        "repo": "base16-humanoid-schemes",
+        "type": "github"
+      }
+    },
+    "icy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1520533581,
+        "narHash": "sha256-Dmi/2GU5jojciM9MAjh0kt28M1T7XDLh+SI4z2vKbGg=",
+        "owner": "icyphox",
+        "repo": "base16-icy-scheme",
+        "rev": "26ab637eab7a9ef1c697bb81f8dbf376f3a0f99b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "icyphox",
+        "repo": "base16-icy-scheme",
+        "type": "github"
+      }
+    },
+    "kimber": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1596459712,
+        "narHash": "sha256-RA4Krtrauwv924iv+J9uVT/jzg8fYsrl9POekEKDb/Q=",
+        "owner": "akhsiM",
+        "repo": "base16-kimber-scheme",
+        "rev": "5b1963918405bbb28479fb7b14872887080d8083",
+        "type": "github"
+      },
+      "original": {
+        "owner": "akhsiM",
+        "repo": "base16-kimber-scheme",
+        "type": "github"
+      }
+    },
+    "materia": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1467112700,
+        "narHash": "sha256-9+n7WfE4Idar8lj4XVVfBMH+3eUcGny0oddvXdS8N58=",
+        "owner": "Defman21",
+        "repo": "base16-materia",
+        "rev": "9c0952eda648246e9b9725e45e2f15b5065bcb61",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Defman21",
+        "repo": "base16-materia",
+        "type": "github"
+      }
+    },
+    "material-vivid": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1540666355,
+        "narHash": "sha256-U8cV3H3mYEOIQXMxvJM/BbO87bddR/pBE6KivkBRQ4M=",
+        "owner": "joshyrobot",
+        "repo": "base16-material-vivid-scheme",
+        "rev": "1e8f5962f19d7b76a9f6d807868096cb41c442ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "joshyrobot",
+        "repo": "base16-material-vivid-scheme",
+        "type": "github"
+      }
+    },
+    "materialtheme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1501307491,
+        "narHash": "sha256-CqkFfDRNNIhsKVmxSdNCnjEv/20O56bAv2toBDLjgkU=",
+        "owner": "ntpeters",
+        "repo": "base16-materialtheme-scheme",
+        "rev": "cbbc47444208fb8f28dbc48ea986c9dc81843e9a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ntpeters",
+        "repo": "base16-materialtheme-scheme",
+        "type": "github"
+      }
+    },
+    "mellow": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1503526538,
+        "narHash": "sha256-Rg6lZEJC18MuuPyNWc73Bcgdqu+JcujQkcWgBrAfifI=",
+        "owner": "gidsi",
+        "repo": "base16-mellow-scheme",
+        "rev": "3822819f1621a8de385bbdef5d2d9c2d6ae73212",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gidsi",
+        "repo": "base16-mellow-scheme",
+        "type": "github"
+      }
+    },
+    "mexico-light": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1469291246,
+        "narHash": "sha256-ghxOH4/JW5+zE7ll+47xfo1ZohW39+uooiKsfmOPVWM=",
+        "owner": "drzel",
+        "repo": "base16-mexico-light-scheme",
+        "rev": "b287a29afc299d16667cf497325981068f89f749",
+        "type": "github"
+      },
+      "original": {
+        "owner": "drzel",
+        "repo": "base16-mexico-light-scheme",
+        "type": "github"
+      }
+    },
+    "nebula": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1591316390,
+        "narHash": "sha256-nls/WmzXgQDebtxpIwhMMMY6rulRd7jxaxA3NIBE/iw=",
+        "owner": "Misterio77",
+        "repo": "base16-nebula-scheme",
+        "rev": "cc6010630c5a7a7ec1f5928b37da9721f7988f9a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Misterio77",
+        "repo": "base16-nebula-scheme",
+        "type": "github"
+      }
+    },
+    "nix-std": {
+      "locked": {
+        "lastModified": 1671170529,
+        "narHash": "sha256-015C6x3tZMEd83Vd2rpfLC86PSRJrbUca1U3Rysranw=",
+        "owner": "chessai",
+        "repo": "nix-std",
+        "rev": "3b307d64ef7d7e8769d36b8c8bf33983efd1415a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chessai",
+        "repo": "nix-std",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1700083842,
+        "narHash": "sha256-uC5v4VyUPgC5L3zv7e9q6+TRCm+eiA+Ow5vcH67ef/I=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9008bc4eb62c878d0812105ea1b34255d651df88",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nord": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1563608154,
+        "narHash": "sha256-yQUSP/EXLwD9VpuYECLZYFtOEuJ85c1oeddghYPRLBU=",
+        "owner": "spejamchr",
+        "repo": "base16-nord-scheme",
+        "rev": "6e83e1d56216762b4f250443af277a000f9d3c0b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "spejamchr",
+        "repo": "base16-nord-scheme",
+        "type": "github"
+      }
+    },
+    "nova": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1563652185,
+        "narHash": "sha256-tE2iTynpMbu28Bz0B0jPkUlCFfp0D418AqOiXaL13t0=",
+        "owner": "gessig",
+        "repo": "base16-nova-scheme",
+        "rev": "d0bc7162c69d61b62784e8fe5a9e60b3e6c4af3c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gessig",
+        "repo": "base16-nova-scheme",
+        "type": "github"
+      }
+    },
+    "one-light": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1498165509,
+        "narHash": "sha256-ewwN9i9cuKaPIJSpiBFHUvjbWotN4RZvy1MgkJuXP6U=",
+        "owner": "purpleKarrot",
+        "repo": "base16-one-light-scheme",
+        "rev": "be2ca48d1abc87f9d9eb61f48f64891469ce9f0f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "purpleKarrot",
+        "repo": "base16-one-light-scheme",
+        "type": "github"
+      }
+    },
+    "onedark": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1475880966,
+        "narHash": "sha256-4yQakcNSvp6PudckwppgVuELjDQkQAzk2kcsd3ONj50=",
+        "owner": "tilal6991",
+        "repo": "base16-onedark-scheme",
+        "rev": "2e863b1e18d5b67495506dde493d416d45caf823",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tilal6991",
+        "repo": "base16-onedark-scheme",
+        "type": "github"
+      }
+    },
+    "outrun": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1517840720,
+        "narHash": "sha256-6TRzxoxeLOFJp+ZEiE8yeiUWa83R7eyyU+mD6siQOzw=",
+        "owner": "hugodelahousse",
+        "repo": "base16-outrun-schemes",
+        "rev": "fc9a4fdc95e7775c72765848d6a9a69b0f6e9999",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hugodelahousse",
+        "repo": "base16-outrun-schemes",
+        "type": "github"
+      }
+    },
+    "papercolor": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613481672,
+        "narHash": "sha256-kNENVhp2kBf52RZY1NNR9MoiNnZVra2KWX/1cuxxCWQ=",
+        "owner": "jonleopard",
+        "repo": "base16-papercolor-scheme",
+        "rev": "f4d3eb4e7168c7e90d9599492d0ce73f695c721b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jonleopard",
+        "repo": "base16-papercolor-scheme",
+        "type": "github"
+      }
+    },
+    "pasque": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1590185778,
+        "narHash": "sha256-EnLTVRDWZTSoHH0CQznd4IORYWqoLPA36YBG/8Wy2zs=",
+        "owner": "Misterio77",
+        "repo": "base16-pasque-scheme",
+        "rev": "41dccec87745e7e73a8feaa899803b0c3ecd12f5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Misterio77",
+        "repo": "base16-pasque-scheme",
+        "type": "github"
+      }
+    },
+    "pinky": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1600519920,
+        "narHash": "sha256-iCfnFOydpludcB3Odd7yQh6jbad8zSfmOhzHQJaksLk=",
+        "owner": "b3nj5m1n",
+        "repo": "base16-pinky-scheme",
+        "rev": "8505127aa9428b1f7d8beedf0195fc542cb9a3ed",
+        "type": "github"
+      },
+      "original": {
+        "owner": "b3nj5m1n",
+        "repo": "base16-pinky-scheme",
+        "type": "github"
+      }
+    },
+    "porple": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1510336589,
+        "narHash": "sha256-WXEn1imccSTWajNLhEx/8l0yBbosZ9K2mhuFjGTbdXU=",
+        "owner": "AuditeMarlow",
+        "repo": "base16-porple-scheme",
+        "rev": "d4dadc2a500a657b4e8e16fb9baf159e4311f3dc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AuditeMarlow",
+        "repo": "base16-porple-scheme",
+        "type": "github"
+      }
+    },
+    "purpledream": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1533744142,
+        "narHash": "sha256-jZHTwYbJzmpyUI95+yV7YUTIxFpEIShgMem9IKoin1c=",
+        "owner": "archmalet",
+        "repo": "base16-purpledream-scheme",
+        "rev": "5a324665fb2425bedab38cdb5b63d38d13e71d78",
+        "type": "github"
+      },
+      "original": {
+        "owner": "archmalet",
+        "repo": "base16-purpledream-scheme",
+        "type": "github"
+      }
+    },
+    "qualia": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1593792036,
+        "narHash": "sha256-igxqreTivkl99fOrF11Uhch8uyFkGeav1VaAeCZVtHo=",
+        "owner": "isaacwhanson",
+        "repo": "base16-qualia-scheme",
+        "rev": "f07677c15add392980426634dad2619c3e9294d5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "isaacwhanson",
+        "repo": "base16-qualia-scheme",
+        "type": "github"
+      }
+    },
+    "rebecca": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1482868321,
+        "narHash": "sha256-kfxjA5WEtXgeANrBNlRhmuBh4Zu2jU8W10iWT3LL89k=",
+        "owner": "vic",
+        "repo": "base16-rebecca",
+        "rev": "001830703bb361317585c9c97a53b25230173915",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vic",
+        "repo": "base16-rebecca",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "apprentice": "apprentice",
+        "atelier": "atelier",
+        "atlas": "atlas",
+        "base16": "base16",
+        "black-metal": "black-metal",
+        "brogrammer": "brogrammer",
+        "brushtrees": "brushtrees",
+        "circus": "circus",
+        "classic": "classic",
+        "codeschool": "codeschool",
+        "colors": "colors",
+        "cupertino": "cupertino",
+        "danqing": "danqing",
+        "darcula": "darcula",
+        "darkmoss": "darkmoss",
+        "darkviolet": "darkviolet",
+        "default": "default",
+        "dirtysea": "dirtysea",
+        "dracula": "dracula",
+        "edge": "edge",
+        "equilibrium": "equilibrium",
+        "espresso": "espresso",
+        "eva": "eva",
+        "flakelib": "flakelib",
+        "framer": "framer",
+        "fruit-soda": "fruit-soda",
+        "gigavolt": "gigavolt",
+        "github": "github",
+        "gruber": "gruber",
+        "gruvbox": "gruvbox",
+        "hardcore": "hardcore",
+        "heetch": "heetch",
+        "helios": "helios",
+        "horizon": "horizon",
+        "humanoid": "humanoid",
+        "icy": "icy",
+        "kimber": "kimber",
+        "materia": "materia",
+        "material-vivid": "material-vivid",
+        "materialtheme": "materialtheme",
+        "mellow": "mellow",
+        "mexico-light": "mexico-light",
+        "nebula": "nebula",
+        "nixpkgs": "nixpkgs",
+        "nord": "nord",
+        "nova": "nova",
+        "one-light": "one-light",
+        "onedark": "onedark",
+        "outrun": "outrun",
+        "papercolor": "papercolor",
+        "pasque": "pasque",
+        "pinky": "pinky",
+        "porple": "porple",
+        "purpledream": "purpledream",
+        "qualia": "qualia",
+        "rebecca": "rebecca",
+        "rose-pine": "rose-pine",
+        "sagelight": "sagelight",
+        "sakura": "sakura",
+        "sandcastle": "sandcastle",
+        "shades-of-purple": "shades-of-purple",
+        "silk": "silk",
+        "snazzy": "snazzy",
+        "solarflare": "solarflare",
+        "summercamp": "summercamp",
+        "summerfruit": "summerfruit",
+        "synth-midnight": "synth-midnight",
+        "tango": "tango",
+        "tender": "tender",
+        "tinted": "tinted",
+        "twilight": "twilight",
+        "unclaimed": "unclaimed",
+        "unikitty": "unikitty",
+        "vice": "vice",
+        "vulcan": "vulcan",
+        "windows": "windows",
+        "woodland": "woodland",
+        "xcode-dusk": "xcode-dusk",
+        "zenburn": "zenburn"
+      }
+    },
+    "rose-pine": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689486640,
+        "narHash": "sha256-VW5M6+P3XeKU26h7QQiwicYFTczOXfpfskN9jFovxJ4=",
+        "owner": "edunfelt",
+        "repo": "base16-rose-pine-scheme",
+        "rev": "4161952824f4ede6c3eb73ef6b5f3609a76cf69a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edunfelt",
+        "repo": "base16-rose-pine-scheme",
+        "type": "github"
+      }
+    },
+    "sagelight": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1606422261,
+        "narHash": "sha256-BgKgcNFw0bjtyX99zbfcLpQViQU9P517oVHuweIvE1U=",
+        "owner": "cveldy",
+        "repo": "base16-sagelight-scheme",
+        "rev": "51b88f7903ae1ce6a51851929010f9858c3ee5bd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cveldy",
+        "repo": "base16-sagelight-scheme",
+        "type": "github"
+      }
+    },
+    "sakura": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1593728093,
+        "narHash": "sha256-mMR2ypJ+PklXXS6stzCdsXShXPvYO8Y4bYja7u+g4Uw=",
+        "owner": "Misterio77",
+        "repo": "base16-sakura-scheme",
+        "rev": "1448240ec789bfeb9e579445854e147f09132d03",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Misterio77",
+        "repo": "base16-sakura-scheme",
+        "type": "github"
+      }
+    },
+    "sandcastle": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1563652407,
+        "narHash": "sha256-5yQ3c8gRtkfFWlEMqw/gEYAKu9o7B/BOZLDF+/jxVqA=",
+        "owner": "gessig",
+        "repo": "base16-sandcastle-scheme",
+        "rev": "bd11adf690714ac74d82865776e05845f2ab3481",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gessig",
+        "repo": "base16-sandcastle-scheme",
+        "type": "github"
+      }
+    },
+    "shades-of-purple": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1595468462,
+        "narHash": "sha256-mEVytu0XDrns7S7eBACHMC700kSK2upKkAwGUkJSxcU=",
+        "owner": "ahmadawais",
+        "repo": "base16-shades-of-purple",
+        "rev": "5a69be274688d41eef3ec8f924d15d44d1557ea6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ahmadawais",
+        "repo": "base16-shades-of-purple",
+        "type": "github"
+      }
+    },
+    "silk": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602266968,
+        "narHash": "sha256-K+bH+rn5gaXlQ+uYaelUPT5dvt3pCI3g+yBvGuDNWzM=",
+        "owner": "misterio77",
+        "repo": "base16-silk-scheme",
+        "rev": "4ef846a1a70e32eae8d09749b87d4db6f123ce17",
+        "type": "github"
+      },
+      "original": {
+        "owner": "misterio77",
+        "repo": "base16-silk-scheme",
+        "type": "github"
+      }
+    },
+    "snazzy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620573320,
+        "narHash": "sha256-o/JdM/ODFEN19vw/omH6NVovsB03ARuM/wLKOjStzPs=",
+        "owner": "h404bi",
+        "repo": "base16-snazzy-scheme",
+        "rev": "6e64c88288270c9b6baf9cc7f9eb7496c39fbd0b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "h404bi",
+        "repo": "base16-snazzy-scheme",
+        "type": "github"
+      }
+    },
+    "solarflare": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1604607696,
+        "narHash": "sha256-Dnzwgl5HbtUfC1mE0Wtzo0WmYJgjr/uXjwGCiYV4pL8=",
+        "owner": "mnussbaum",
+        "repo": "base16-solarflare-scheme",
+        "rev": "95d85867ff6b83348def2b7221d693b2f13c8388",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mnussbaum",
+        "repo": "base16-solarflare-scheme",
+        "type": "github"
+      }
+    },
+    "std": {
+      "inputs": {
+        "nix-std": "nix-std"
+      },
+      "locked": {
+        "lastModified": 1671225084,
+        "narHash": "sha256-EzqxFHRifPyjUXQY4B8GJH75fTmWqFnQdj10Q984bR8=",
+        "owner": "flakelib",
+        "repo": "std",
+        "rev": "8546115941a5498ddb03a239aacdba151d433f09",
+        "type": "github"
+      },
+      "original": {
+        "owner": "flakelib",
+        "repo": "std",
+        "type": "github"
+      }
+    },
+    "summercamp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1560379898,
+        "narHash": "sha256-kOk19AYOTPhzCcqO1ylZv9XmZAki1igJTtFKAoeB6Mg=",
+        "owner": "zoefiri",
+        "repo": "base16-summercamp",
+        "rev": "46415a7da548fbe411e8659ee4b2febb73b255cd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zoefiri",
+        "repo": "base16-summercamp",
+        "type": "github"
+      }
+    },
+    "summerfruit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1471208641,
+        "narHash": "sha256-wEeWCW04I1pCcWc3CQzELTKmc8DbjXgblQJHBnOFukk=",
+        "owner": "cscorley",
+        "repo": "base16-summerfruit-scheme",
+        "rev": "f90e53358fd0d6ba1526bd790f26b0195b6debf7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cscorley",
+        "repo": "base16-summerfruit-scheme",
+        "type": "github"
+      }
+    },
+    "synth-midnight": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633810574,
+        "narHash": "sha256-OCpPhdN9vkNvciSb8cPm2/hP6u+MVtDjPPhxOfqnKqA=",
+        "owner": "michael-ball",
+        "repo": "base16-synth-midnight-scheme",
+        "rev": "ad5722d10a1b7a720a2a9b75429858348c08fa55",
+        "type": "github"
+      },
+      "original": {
+        "owner": "michael-ball",
+        "repo": "base16-synth-midnight-scheme",
+        "type": "github"
+      }
+    },
+    "tango": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1579991673,
+        "narHash": "sha256-NIwGnsyIfZWyT/Iz8NyzJ/PZH8Cn4wiblbVqetH1O9w=",
+        "owner": "Schnouki",
+        "repo": "base16-tango-scheme",
+        "rev": "c341298a1203fdd376cf5a9ad9c4abcae8b194d2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Schnouki",
+        "repo": "base16-tango-scheme",
+        "type": "github"
+      }
+    },
+    "tender": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1627932080,
+        "narHash": "sha256-sqaRtDP7i3dVOY+w3XrYq5stQJ9a2aTmQHIb9xxgoqs=",
+        "owner": "DanManN",
+        "repo": "base16-tender-scheme",
+        "rev": "04275d828834e26e75ab187747b73badbada0d32",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DanManN",
+        "repo": "base16-tender-scheme",
+        "type": "github"
+      }
+    },
+    "tinted": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696158499,
+        "narHash": "sha256-5yIHgDTPjoX/3oDEfLSQ0eJZdFL1SaCfb9d6M0RmOTM=",
+        "owner": "tinted-theming",
+        "repo": "base16-schemes",
+        "rev": "a9112eaae86d9dd8ee6bb9445b664fba2f94037a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tinted-theming",
+        "repo": "base16-schemes",
+        "type": "github"
+      }
+    },
+    "twilight": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1470390162,
+        "narHash": "sha256-gfx47Z6RlJtzXaAK6OdOVNokVFOCmj4bqg5BUBoAvgM=",
+        "owner": "hartbit",
+        "repo": "base16-twilight-scheme",
+        "rev": "c3ea75b94fd1be21af7b222c41a96f38b31032aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hartbit",
+        "repo": "base16-twilight-scheme",
+        "type": "github"
+      }
+    },
+    "unclaimed": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1527170198,
+        "narHash": "sha256-YV2tgexpyeLqm6d8WaBwT9QPAHT/gxhiFpxQq03xdhA=",
+        "owner": "chriskempson",
+        "repo": "base16-unclaimed-schemes",
+        "rev": "d6b93456dc1012628faec572387814f59e0b854a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chriskempson",
+        "repo": "base16-unclaimed-schemes",
+        "type": "github"
+      }
+    },
+    "unikitty": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1509897429,
+        "narHash": "sha256-pZNzlcLsyl4M0wSKeg4lhptZAOaw1R+roheZaPMQryY=",
+        "owner": "joshwlewis",
+        "repo": "base16-unikitty",
+        "rev": "28362f3a37a0e81b04d844aa5b2923ad63140734",
+        "type": "github"
+      },
+      "original": {
+        "owner": "joshwlewis",
+        "repo": "base16-unikitty",
+        "type": "github"
+      }
+    },
+    "vice": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1691352322,
+        "narHash": "sha256-phXSkOh6x80QlAg6YNw8k6Acs2I0qL4MZgjgiJtAJTI=",
+        "owner": "Thomashighbaugh",
+        "repo": "base16-vice-scheme",
+        "rev": "4ffe99f5cb29e84d4910fbccc7f34b4d05eda6d5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Thomashighbaugh",
+        "repo": "base16-vice-scheme",
+        "type": "github"
+      }
+    },
+    "vulcan": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1584368651,
+        "narHash": "sha256-Y4aRHjc3peQaC0dpu0W1cIsy+ubjKCam2ze7SVV0BIU=",
+        "owner": "andreyvpng",
+        "repo": "base16-vulcan-scheme",
+        "rev": "83c528cd48b5f03384493b0ed3de0c1c8caef40a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andreyvpng",
+        "repo": "base16-vulcan-scheme",
+        "type": "github"
+      }
+    },
+    "windows": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1611282073,
+        "narHash": "sha256-X7LvjSmE2fYZ8NmKOjhng9YOgrW8vKKGR5Q8eiywXtw=",
+        "owner": "C-Fergus",
+        "repo": "base16-windows-scheme",
+        "rev": "2ee677efa6373dd1cbb1652d1823a616dc4ff03a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "C-Fergus",
+        "repo": "base16-windows-scheme",
+        "type": "github"
+      }
+    },
+    "woodland": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1482444882,
+        "narHash": "sha256-7oWWosW/SthhLsdgzIVB9jPVHN5LbZcSDhBntUlPNJw=",
+        "owner": "jcornwall",
+        "repo": "base16-woodland-scheme",
+        "rev": "0278e12a49f4cf38ecf3026a1e35f4307e928d33",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jcornwall",
+        "repo": "base16-woodland-scheme",
+        "type": "github"
+      }
+    },
+    "xcode-dusk": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1507170418,
+        "narHash": "sha256-77l5bi6TY9P03E6cImKdnPmo906jVnDIkIJKPiZz19M=",
+        "owner": "gonsie",
+        "repo": "base16-xcode-dusk-scheme",
+        "rev": "921bdb002bb8f529c7a1bc8e847c73e188ed9682",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gonsie",
+        "repo": "base16-xcode-dusk-scheme",
+        "type": "github"
+      }
+    },
+    "zenburn": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1530882628,
+        "narHash": "sha256-yz/hw5lvMaXKDXo8KOdfPMCgIXBfAuRVC+4zgHeP1MI=",
+        "owner": "elnawe",
+        "repo": "base16-zenburn-scheme",
+        "rev": "e0b00a2675feed5f50ba7c07a09fc3d4ac68982d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "elnawe",
+        "repo": "base16-zenburn-scheme",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

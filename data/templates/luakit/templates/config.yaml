@@ -1,0 +1,10 @@
+{
+  "colors": {
+    "extension": ".lua",
+    "output": "colors"
+  },
+  "default": {
+    "extension": ".lua",
+    "output": "themes"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".py",
+    "output": "base16"
+  }
+}

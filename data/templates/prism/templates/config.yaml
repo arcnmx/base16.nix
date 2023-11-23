@@ -1,0 +1,8 @@
+{
+  "dark": {},
+  "default": {
+    "extension": ".css",
+    "output": "themes"
+  },
+  "light": {}
+}

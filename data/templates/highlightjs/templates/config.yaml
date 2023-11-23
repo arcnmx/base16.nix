@@ -1,0 +1,7 @@
+{
+  "default": {
+    "extension": ".css",
+    "output": "themes",
+    "prefix": ""
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".xcs",
+    "output": "schemes"
+  }
+}

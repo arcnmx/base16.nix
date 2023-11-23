@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".theme",
+    "output": "highlight-themes"
+  }
+}

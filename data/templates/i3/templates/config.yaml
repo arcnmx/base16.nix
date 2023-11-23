@@ -1,0 +1,18 @@
+{
+  "bar-colors": {
+    "extension": ".config",
+    "output": "bar-colors"
+  },
+  "client-properties": {
+    "extension": ".config",
+    "output": "client-properties"
+  },
+  "colors": {
+    "extension": ".config",
+    "output": "colors"
+  },
+  "default": {
+    "extension": ".config",
+    "output": "themes"
+  }
+}

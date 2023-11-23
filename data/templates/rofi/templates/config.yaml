@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "extension": ".rasi",
+    "output": "colors"
+  },
+  "default": {
+    "extension": ".rasi",
+    "output": "themes"
+  },
+  "old": {
+    "extension": ".config",
+    "output": "themes"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".vim",
+    "output": "colors"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".config",
+    "output": "colors"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "accent": {
+    "extension": ".accent.xml",
+    "output": "options"
+  },
+  "default": {
+    "extension": ".icls",
+    "output": "colors"
+  },
+  "scheme": {
+    "extension": ".scheme.xml",
+    "output": "options"
+  },
+  "theme": {
+    "extension": ".theme.xml",
+    "output": "options"
+  }
+}

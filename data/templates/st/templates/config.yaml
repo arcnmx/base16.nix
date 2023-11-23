@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".diff",
+    "output": "diffs"
+  }
+}

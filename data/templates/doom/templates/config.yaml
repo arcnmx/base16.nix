@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".el",
+    "output": "themes"
+  }
+}

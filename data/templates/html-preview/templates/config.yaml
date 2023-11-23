@@ -1,0 +1,10 @@
+{
+  "css": {
+    "extension": ".css",
+    "output": "css"
+  },
+  "preview": {
+    "extension": ".html",
+    "output": "previews"
+  }
+}

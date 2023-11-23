@@ -1,0 +1,40 @@
+{
+  "command_prefix": "# Make Bash not silently ignore errors.\nset -euo pipefail\n",
+  "image": "ubuntu:20.04",
+  "tasks": {
+    "build": {
+      "command": "# Build the color scheme.\nexport GEM_HOME=\"$HOME/.gem\"\ncd base16-builder-ruby\nbundle install\n./builder update\nrm -rf schemes\nmkdir -p schemes/circus\ncp ../circus.yaml schemes/circus\n./builder\ncd ..\nrm -rf circus\nmv base16-builder-ruby/out circus\n",
+      "dependencies": [
+        "create_user",
+        "install_tagref"
+      ],
+      "description": "Build the binary in non-release mode.",
+      "input_paths": [
+        "base16-builder-ruby",
+        "circus.yaml"
+      ],
+      "output_paths": [
+        "circus"
+      ]
+    },
+    "create_user": {
+      "command": "# Create a user named `user` with a home directory.\nadduser --disabled-password --gecos '' user\n",
+      "description": "Create a user who doesn't have root privileges.",
+      "user": "root"
+    },
+    "install_packages": {
+      "command": "# Install the following packages:\n#\n# - curl - Used for installing Tagref\n# - git  - Used by base16-builder-ruby\n# - ruby - Used to build the color scheme.\napt-get update\napt-get install --yes curl git ruby\n\n# Install Bundler.\ngem install bundler:1.14.6 # Must match the version in `base16-builder-ruby/Gemfile.lock`.\n",
+      "description": "Install system packages.",
+      "user": "root"
+    },
+    "install_tagref": {
+      "command": "# Install Tagref using the official installer script.\ncurl https://raw.githubusercontent.com/stepchowfun/tagref/main/install.sh -LSfs | sh\n",
+      "dependencies": [
+        "install_packages"
+      ],
+      "description": "Install Tagref, a reference checking tool.",
+      "user": "root"
+    }
+  },
+  "user": "user"
+}

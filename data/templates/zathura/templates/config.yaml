@@ -1,0 +1,10 @@
+{
+  "default": {
+    "extension": ".config",
+    "output": "colors"
+  },
+  "recolor": {
+    "extension": ".config",
+    "output": "recolors"
+  }
+}

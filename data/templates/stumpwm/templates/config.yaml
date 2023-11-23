@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".lisp",
+    "output": "build"
+  }
+}

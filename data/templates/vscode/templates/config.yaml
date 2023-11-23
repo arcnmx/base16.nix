@@ -1,0 +1,6 @@
+{
+  "default": {
+    "extension": ".json",
+    "output": "themes"
+  }
+}
