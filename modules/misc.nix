@@ -1,4 +1,4 @@
-{ inputs }: { lib, config, options, pkgs, ... }: with lib; let
+{ inputs }: { lib, config, options, ... }: with lib; let
   inherit (inputs) self;
   base16 = lib.base16 or self.lib.base16;
   cfg = config;

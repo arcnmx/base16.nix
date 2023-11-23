@@ -3,7 +3,6 @@
   base16 = lib.base16 or self.lib.base16;
   cfg = config.base16;
   defaultScheme = cfg.schemes.${cfg.defaultSchemeName};
-  base16-templates = pkgs.base16-templates or (pkgs.extend self.overlays.templates).base16-templates;
   shellScripts = mapAttrs (key: scheme: pkgs.writeShellScriptBin "base16-${scheme.slug}" scheme.ansi.shellScript) cfg.schemes;
   termModule = { config, ... }: {
     config = {
@@ -49,7 +48,7 @@ in {
       enable = mkEnableOption "base16 theme application for vim" // { default = cfg.shell.enable; };
       template = mkOption {
         type = types.unspecified;
-        default = base16-templates.vim.withTemplateData;
+        default = pkgs.base16-templates.vim.withTemplateData;
         defaultText = "pkgs.base16-templates.vim.withTemplateData";
       };
       plugin = mkOption {
@@ -88,7 +87,7 @@ in {
         };
         vim = {
           colorschemes = mapAttrs (_: scheme:
-            (cfg.vim.template scheme.templateData).templated.default.path
+            (cfg.vim.template scheme.templateData).base16.template.default.path
           ) cfg.schemes;
           plugin = pkgs.linkFarm "base16-vim" (mapAttrsToList (key: scheme: {
             name = "colors/base16-${cfg.schemes.${key}.slug}.vim";

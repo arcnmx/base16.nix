@@ -2,12 +2,7 @@
   inherit (lib) base16;
 in {
   base16 = {
-    schemeData = base16-schemes.lib.schemeData.schemes;
-    schemes = mapAttrs (slug: scheme: base16.evalScheme (
-      scheme // {
-        inherit slug;
-      }
-    )) base16.schemeData;
+    nameSlug = name: replaceStrings [ " " ] [ "-" ] (toLower name);
     names = map (c: "base0${toUpper c}") hexChars;
     types = import ./types.nix { inherit lib; };
     shell = import ./shell.nix { inherit lib; };
@@ -21,9 +16,6 @@ in {
         modules = base16.types.schemeModules ++ [
           module
         ];
-        specialArgs = {
-          name = data.slug or data.scheme or "unknown";
-        };
       };
     in eval.config;
   };

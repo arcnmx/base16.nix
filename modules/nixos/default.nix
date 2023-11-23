@@ -1,4 +1,4 @@
-{ inputs }: { pkgs, config, lib, ... }: let
+{ inputs }: { config, lib, ... }: let
   inherit (inputs) self;
   inherit (self.lib) nixlib;
   base16 = lib.base16 or self.lib.base16;

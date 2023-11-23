@@ -312,27 +312,31 @@
       tag = config.base0F;
     };
   };
-  schemeModule = { options, config, name, ... }: let
+  schemeModule = { config, name ? null, ... }: let
     baseOption = name: mkOption {
       type = colourType;
     };
   in {
-    options = genAttrs base16.names baseOption // {
+    options = with types; genAttrs base16.names baseOption // {
       scheme = mkOption {
-        type = types.str;
-        default = name;
+        type = str;
+        default = if name != null then name else "unknown";
       };
       author = mkOption {
-        type = with types; nullOr str;
+        type = nullOr str;
+        default = null;
+      };
+      sourceSlug = mkOption {
+        type = nullOr str;
         default = null;
       };
       slug = mkOption {
-        type = types.str;
-        default = name;
+        type = str;
+        default = if name != null then name else base16.nameSlug config.scheme;
       };
     };
   };
-  schemeDataModule = { options, config, name, ... }: let
+  schemeDataModule = { options, config, ... }: let
     dataConfig = name: mkIf (config.schemeData ? ${name}) (
       config.schemeData.${name}
     );
@@ -344,7 +348,7 @@
       };
     };
     config = let
-      names = base16.names ++ [ "author" "slug" "scheme" ];
+      names = base16.names ++ [ "author" "slug" "sourceSlug" "scheme" ];
       topLevel = genAttrs names dataConfig;
       templateData = removeAttrs config.schemeData names;
     in topLevel // optionalAttrs (options ? templateData) {

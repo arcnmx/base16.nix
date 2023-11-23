@@ -30,39 +30,12 @@
           yq.offset = "build";
         };
       };
+      base16-mustache = ./mustache.nix;
     };
     builders = {
-      base16-build-scheme-format = { runCommand
-      , base16-format-scheme'build
-      , yq'build
-      }: { src, name, config ? { } }: runCommand "base16-schemes-${name}" {
-        inherit src;
-        nativeBuildInputs = [ base16-format-scheme'build yq'build ];
-        schemeDir = config.root or "";
-        outputs = [ "out" "json" ];
-      } ''
-        install -d "$out"
-        base16-format-scheme "$src$schemeDir" "$out" > schemes.txt
-        SCHEME_JSON='{}'
-        while read -r scheme; do
-          SCHEME_JSON="$(yq --sort-keys -M \
-            --slurpfile scheme "$out/$scheme.yaml" \
-            ". + { \"$scheme\": \$scheme[0] }" <<< "$SCHEME_JSON"
-          )"
-        done < schemes.txt
-        printf '%s' "$SCHEME_JSON" > $json
-      '';
-      base16-build-template-format = { runCommand
-      , base16-format-template'build
-      , yq'build
-      }: { src, name, config ? { } }: runCommand "base16-templates-${name}" {
-        inherit src;
-        nativeBuildInputs = [ base16-format-template'build yq'build ];
-        templateDir = config.root or "" + "/templates";
-      } ''
-        install -d "$out/templates"
-        base16-format-template "$src$templateDir" "$out/templates"
-      '';
+      base16-build-scheme-format = ./format-scheme-build.nix;
+      base16-build-template-format = ./format-template-build.nix;
+      base16-build-template = ./build-template.nix;
     };
     overlays = {
       lib = final: prev: {
