@@ -42,11 +42,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1700702020,
-        "narHash": "sha256-bpw4HTJEBfBCx3OhLVpPElkyG213Xrr9344730fKOnE=",
+        "lastModified": 1700768693,
+        "narHash": "sha256-HuaniSdF1jCD86rE5WAvK39fAyGKBPPriVrsHxd5n+k=",
         "owner": "arcnmx",
         "repo": "base16.nix",
-        "rev": "551958dc0352625fe8a6d16205e7a3e748326d24",
+        "rev": "0d01fbdf72d5184bee401c380abe17fe725863fb",
         "type": "github"
       },
       "original": {
