@@ -112,7 +112,7 @@ in {
           };
         }) (getAttrs base16.names cfg.schemes.${scheme})
       ) cfg.alias;
-      _module.args.base16 = cfg.schemes // getAttrs (base16.names ++ [ "alias" "ansi" "map" ]) defaultScheme;
+      _module.args.base16 = cfg.schemes // getAttrs (base16.names ++ [ "aliases" "ansi" "map" ]) defaultScheme;
     };
     enableShellInit = cfg.shell.enable && cfg.shell.applyDefault != null;
     shellScriptDefault = shellScripts.${cfg.shell.applyDefault};
