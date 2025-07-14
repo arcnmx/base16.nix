@@ -119,9 +119,13 @@ in {
     initExtra = "${shellScriptDefault}/bin/${shellScriptDefault.name}";
     shellInit = {
       fish.interactiveShellInit = initExtra;
-    } // genAttrs ["zsh" "bash"] (_: {
-      inherit initExtra;
-    });
+      zsh = let
+        key = if options.programs.zsh ? initContent then "initContent" else "initExtra";
+      in {
+        "${key}" = initExtra;
+      };
+      bash.initExtra = initExtra;
+    };
     colorscheme = "base16-${defaultScheme.slug}";
     vimConf = genAttrs [ "vim" "neovim" ] (_: {
       plugins = [ cfg.vim.plugin ];
